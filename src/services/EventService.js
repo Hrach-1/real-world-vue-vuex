@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const apiClient = axios.create({
-  baseURL: `http://localhost:3000`,
+  baseURL: `https://my-json-server.typicode.com/Hrach-1/real-world-vue-vuex/`,
   withCredentials: false, // This is the default
   headers: {
     Accept: 'application/json',
